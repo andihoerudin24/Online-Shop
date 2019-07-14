@@ -28,3 +28,6 @@ Login email:admin@admin.con, Password:admin1997
 
 
 9.<p align="center"><img src="https://github.com/andihoerudin24/Online-Shop/blob/master/9.PNG"></p>
+
+
+10.<p align="center"><img src="https://github.com/andihoerudin24/Online-Shop/blob/master/10.PNG"></p>
