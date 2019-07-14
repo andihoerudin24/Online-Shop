@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "773588348103",
+    "firebase_url": "https://toko-online-bf77f.firebaseio.com",
+    "project_id": "toko-online-bf77f",
+    "storage_bucket": "toko-online-bf77f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773588348103:android:a6645437066e30d7",
+        "android_client_info": {
+          "package_name": "com.tutorkomputer.bukatoko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773588348103-52dlhfv0hlp513spaf08ht7j4fkevjhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz0YBnaFTBElD2yL202yYchi9nnkliKQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773588348103-52dlhfv0hlp513spaf08ht7j4fkevjhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

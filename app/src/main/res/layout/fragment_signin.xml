@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.auth.SigninFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            />
+
+          <com.xwray.passwordview.PasswordView
+              android:id="@+id/edtPass"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Kata Sandi"
+              />
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/colorWhite"
+            android:text="Masuk"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

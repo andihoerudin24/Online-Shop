@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CityActivity">
+
+   <LinearLayout
+       android:padding="16dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       tools:ignore="MissingConstraints">
+
+       <ImageView
+           android:id="@+id/imgCancel"
+           android:layout_width="40dp"
+           android:layout_height="wrap_content"
+           android:background="@android:color/transparent"
+           android:adjustViewBounds="true"
+           android:src="@drawable/ic_close"
+           android:layout_gravity="end"
+           />
+
+       <EditText
+           android:id="@+id/editText"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Pencarian"
+           android:background="@android:color/transparent"
+           android:textSize="18sp"
+           android:padding="16dp"
+           android:textStyle="bold"
+           />
+
+       <ProgressBar
+           android:id="@+id/progressBar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="16sp"
+           tools:ignore="MissingConstraints" />
+
+
+       <android.support.v7.widget.RecyclerView
+           android:id="@+id/recyclerView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           tools:ignore="MissingConstraints">
+
+       </android.support.v7.widget.RecyclerView>
+
+
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

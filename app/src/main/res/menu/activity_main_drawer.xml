@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_person"
+            android:title="Masuk || Daftar Baru" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_notiv"
+            android:icon="@drawable/ic_menu_notifications"
+            android:title="Pemberitahuan" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_trans"
+            android:icon="@drawable/ic_menu_trans"
+            android:title="Transaksi" />
+    </group>
+
+    <item android:title="Akun Saya">
+        <menu>
+            <item
+                android:visible="false"
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_menu_person"
+                android:title="Lihat Profile" />
+            <item
+                android:visible="false"
+                android:id="@+id/nav_logout"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>
